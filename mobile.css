@@ -1,0 +1,217 @@
+@media (max-width:770px) {
+
+    nav{
+        padding:10px;
+        font-weight: 400;
+        font-style: normal; 
+        position:fixed;
+        text-align: left;
+        width:100%;
+        top:0;
+        margin:0;
+        border-radius: 0px;
+        background: rgb(2, 0, 128);;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        border: 1px solid rgba(255,255,255,0.125);
+        box-shadow: -1px 5px 10px black;
+    }
+    
+    .anav{
+        text-decoration: none;
+        margin:0 20px;
+        font-weight: bold;
+        color: white;
+        transition:1s;
+    }
+    .anav:hover{
+        color:gold;
+        font-size: large;
+    }
+    .intro{
+        padding:10px;
+        width:100%;
+        background: linear-gradient(70deg, black,rgb(0, 10, 99),rgb(0, 19, 128), rgb(73, 0, 0),rgb(119, 0, 0)), rgb(206, 0, 0);
+        height:500px;
+        position:relative;
+        animation: introbg 10s ease-in-out infinite;
+        background-size: 300% 300%;
+        box-shadow: 2px 5px 20px black;
+    }
+    @keyframes introbg{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
+
+    .profile-pic{
+        width:20%;
+        border-radius:50%;
+        box-shadow: 2px 5px 10px black;
+        position:absolute;
+        top:200px;
+        left:3vh;
+        transition:1s;
+    }
+    
+    .profile-pic:hover{
+        width:23%;
+        border-radius: 20px;
+    }
+
+    .intro-text{
+        padding:10px;
+        color:white;
+        position: absolute;
+        left:30%;
+        top:150px;
+        width:100%;
+        font-size: 1rem;
+    }
+    
+    .profile-text{
+        width:50%;
+    }
+
+    .intro-footer{
+        text-align: center;
+        width:100%;
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    
+.intro-footer{
+    width:100%;
+    text-align: center;
+    position:relative;
+    transition:5s;
+}
+.do{
+    font-size:40px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform:capitalize;
+    display:block;
+    font-weight: bold;
+    color:rgb(0, 0, 94);
+    transition:5s;
+}
+.love{
+    font-size:40px;
+    margin-top: 0;
+    display:block;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color:rgb(94, 0, 0);
+    transition:5s;
+}
+
+    /*Page two*/
+    .page-two{
+        position:relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    .basketball{
+        position:relative;
+        display:block;
+        left:5%;
+        width:80%;
+        height:auto;
+        margin-top: 80px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding:2px;
+        border:2px solid black;
+        border-radius:10px;
+        box-shadow: 5px 8px 15px blue, -5px -8px 15px red;
+    }
+    
+    .basketball-logo{
+        width:50px;
+        display:grid;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 50%;
+        margin-right: 50%;
+        position:relative;
+        left:-25px;
+    }
+    .gym{
+        position:relative;
+        left:45%;
+        width:80%;
+        top:-5vh;
+        height:auto;
+        padding:2px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border:2px solid black;
+        border-radius:10px;
+        box-shadow: 5px 8px 15px blue, -5px -8px 15px red;
+    }
+    
+    .gym-logo{
+        width:60px;
+        display:block;
+        position:relative;
+        left:25vh;
+    }
+    
+    .code{
+        position:relative;
+        left:5%;
+        top:-17vh;
+        width:80%;
+        height:auto;
+        padding:2px;
+        text-align: center;
+        border:2px solid black;
+        border-radius:10px;
+        box-shadow: 5px 8px 15px blue, -5px -8px 15px red;
+    }
+    .code-logo{
+        width:70px;
+        display:block;
+        position:relative;
+        left:25vh;
+    }
+
+    /*page three*/
+    .page-three{
+        text-align: center;
+        width:100%;
+        height:2000px;
+        position:relative;
+        background: linear-gradient(100deg,darkblue, blue, rgb(0, 119, 255), rgb(0, 192, 176), rgb(0, 172, 100), rgb(41, 247, 0));
+        animation: pageTwo 10s ease-in-out infinite;
+        background-size: 300% 300%;
+        box-shadow: 2px 5px 15px darkblue, -5px -8px 15px darkblue;
+    }
+    @keyframes pageTwo{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position:100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
+}
